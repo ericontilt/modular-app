@@ -19,8 +19,12 @@ const render = () => {
   );
 };
 
+const run = () => {
+  render();
+};
+
 const maShell = {
-  render
+  run
 };
 
 export default maShell;
