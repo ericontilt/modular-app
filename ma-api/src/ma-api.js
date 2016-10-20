@@ -26,8 +26,8 @@ const wrapWithChannel = (fn, channel) => {
   };
 };
 
-const ctApi = {
+const maApi = {
   channel
 };
 
-export default ctApi;
+export default maApi;

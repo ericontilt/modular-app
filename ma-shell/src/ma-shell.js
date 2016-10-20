@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Shell from './components/Shell.jsx';
 
-if (!window.ctApi) {
+if (!window.maApi) {
   throw new Error('The ma-api module should be loaded first!');
 }
 
-const { ctApi } = window;
-const channel = ctApi.channel('shell');
+const { maApi } = window;
+const channel = maApi.channel('shell');
 channel.subscribe('register:module', () => {
   console.log('Module registerd!');
 });
@@ -19,8 +19,8 @@ const render = () => {
   );
 };
 
-const ctShell = {
+const maShell = {
   render
 };
 
-export default ctShell;
+export default maShell;

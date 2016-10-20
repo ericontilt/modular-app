@@ -7,7 +7,7 @@ import replace from 'rollup-plugin-replace'
 export default {
   entry: 'src/ma-shell.js',
   format: 'iife',
-  moduleName: 'ctShell',
+  moduleName: 'maShell',
   dest: 'dist/ma-shell.js', // equivalent to --output
   plugins: [
     // eslint(),

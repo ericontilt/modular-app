@@ -6,7 +6,7 @@ import commonjs from 'rollup-plugin-commonjs';
 export default {
   entry: 'src/ma-api.js',
   format: 'iife',
-  moduleName: 'ctApi',
+  moduleName: 'maApi',
   dest: 'dist/ma-api.js', // equivalent to --output
   plugins: [
     resolve({

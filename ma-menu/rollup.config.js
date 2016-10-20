@@ -7,7 +7,7 @@ import replace from 'rollup-plugin-replace'
 export default {
   entry: 'src/ma-menu.js',
   format: 'iife',
-  moduleName: 'ctMenu',
+  moduleName: 'maMenu',
   dest: 'dist/ma-menu.js', // equivalent to --output
   plugins: [
     // eslint(),
